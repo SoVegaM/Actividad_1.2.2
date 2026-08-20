@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa - Materialize</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="body-layout">
+
+    <nav class="blue">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo fs-adaptable">Empresa</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="active"><a href="index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   
+    <ul class="sidenav" id="mobile-demo">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+    
+    <main class="container section center-align">
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <h3>Sobre Nosotros</h3>
+                <p style="font-size: 14px; line-height: 1.6; color: #333;">
+                    Somos una empresa dedicada al desarrollo de soluciones tecnológicas aplicadas al sector comercial. Ubicados en Santiago, nos especializamos en la optimización de procesos digitales para pequeñas y medianas empresas.
+                </p>
+                
+                <img src="assets/img/empresa.jpg" alt="Instalaciones de la empresa" class="responsive-img rounded">
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="page-footer black text-white center-align py-2">
+        <div class="container">
+            <p>Desarrollado por Apolo V. Sofia V. y Arianny A. &copy; 2026</p>
+        </div>
+    </footer>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+</html>

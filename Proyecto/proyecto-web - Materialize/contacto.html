@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Materialize</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="body-layout">
+
+    <nav class="blue">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">Empresa</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li class="active"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li class="active"><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+    
+    <main class="container section">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <h4 class="center-align">Contáctanos</h4>
+                <form>
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="nombre" type="text" class="validate">
+                        <label for="nombre">Nombre completo</label>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Correo electrónico</label>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="mensaje" class="materialize-textarea"></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+
+                    <button class="btn waves-effect waves-light blue w-100" type="submit" name="action" style="width:100%;">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer black center-align">
+        <div class="container">
+            <p>Desarrollado por Apolo V. Sofia V. y Arianny A. &copy; 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+</html>

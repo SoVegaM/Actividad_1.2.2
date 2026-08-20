@@ -1,6 +1,6 @@
 # Actividad_1.2.2
 
-#Integrantes
+# Integrantes
 Apolo V.
 Sofia V. 
 Arianny A.

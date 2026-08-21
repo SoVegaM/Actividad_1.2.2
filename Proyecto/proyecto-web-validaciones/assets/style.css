@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Formato para mensajes de error de validación */
+.error-msg {
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+/* Espaciado del contenido principal */
+main {
+    min-height: 75vh;
+}

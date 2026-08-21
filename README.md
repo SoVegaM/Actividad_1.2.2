@@ -1,6 +1,7 @@
 # Actividad_1.2.2
 
 # Integrantes
+<<<<<<< HEAD
 Arianny L.
 Apolo V.
 Sofia V. 
@@ -51,3 +52,8 @@ El proyecto está organizado en 3 carpetas principales para comparar los distint
 1. Entra a cualquiera de las 3 carpetas principales.
 2. Abre el archivo **`index.html`** o **`contacto.html`** haciendo doble clic sobre él (se abrirá en tu navegador web habitual).
 3. En la página de **Contacto**, prueba enviar el formulario vacío para ver cómo funcionan los mensajes de aviso nativos.
+=======
+Apolo V.
+Sofia V. 
+Arianny A.
+>>>>>>> 4ef02e4d944b2c7b99ecb6683f8b7d1bae483040

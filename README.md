@@ -53,6 +53,22 @@ El proyecto está organizado en 3 carpetas principales para comparar los distint
 2. Abre el archivo **`index.html`** o **`contacto.html`** haciendo doble clic sobre él (se abrirá en tu navegador web habitual).
 3. En la página de **Contacto**, prueba enviar el formulario vacío para ver cómo funcionan los mensajes de aviso nativos.
 
+
+
+## 📊 Actualización: Módulo de Estadísticas (`estadisticas.html`)
+
+Se incorporó una nueva sección de reportes e indicadores clave para la empresa **"Lo quieres, te lo vendo"**, orientada al seguimiento y toma de decisiones.
+
+### Características implementadas:
+- **Diseño Responsivo:** Integración de **Bootstrap 5** mediante CDN para mantener la coherencia visual del sitio.
+- **Tabla Interactiva de Datos:** Se creó una tabla con 5 columnas y 10 registros que representan pedidos, clientes, productos y estados de envío.
+- **Plugin DataTables:** Aplicación del plugin jQuery DataTables (vía CDN) que añade funcionalidades avanzadas:
+  - Búsqueda y filtrado en tiempo real.
+  - Ordenamiento de columnas dinámico.
+  - Paginación de registros.
+  - Traducción al español (`es-ES.json`).
+- **Integración de Scripts:** Enlace estandarizado con el archivo de funciones generales (`funciones.js`) y hojas de estilo locales (`assets/style.css`).
+
 =======
 Apolo V.
 Sofia V. 
